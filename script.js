@@ -18,6 +18,47 @@ var Quiz = [{
     },
     {
         question: "Arrays in JavaScript can be used to store"
+        choices: {
+            1: "Numbers and strings",
+            2: "other arrays",
+            3: "booleans",
+            4: "all of the above",
+
+        },
+        answer: "all of the above"
+    },
+    {
+        question: "The condition in an if / else statement is enclosed with"
+        choices: {
+            1: "quotes",
+            2: "curly brackets",
+            3: "parenthesis",
+            4: "square brackets",
+
+        },
+        answer: "curly brackets"
+    },
+    {
+        question: "String values must be encloosed within __ when being assigned to variables"
+        choices: {
+            1: "commas",
+            2: "curly brackets",
+            3: "quotes",
+            4: "parenthesis",
+
+        },
+        answer: "quotes"
+    },
+    {
+        question: ""
+        choices: {
+            1: "",
+            2: "",
+            3: "",
+            4: "",
+
+        },
+        answer: ""
     }
 ]
 console.log(Quiz[1].question)
